@@ -1,0 +1,11 @@
+xxForm 706 (Estates)		1160    1774
+xxForm 1120 (Corporation)		560	    855
+xxForm 11205 (S-Corp)		530	    810
+xxForm 990 (Exempt Organization)		450	    685
+xxForm 1065 (Partnership)		440	    669
+xxForm S500 (Pension / Profit Sharing Plans)400 	615
+xxForm 1041 (Fiduciary)		340	    508
+xxForm 709 (Gift Tax)		260	    389
+xxForm 990-T (UBI for Tax Exempt Orgs.)		250	383
+xxForm 3115 (Application of Change in Accounting Method)200 299
+xxForm 1040 (Itemized Schedule A & State)		200	    294
