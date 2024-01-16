@@ -10,11 +10,11 @@ export function TaxPricing() {
     <section className="min-h-screen w-full py-12 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-zinc-900 dark:to-zinc-800 flex items-center justify-center">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 gap-6 mt-8 md:grid-cols-3 md:gap-8">
-          <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">
+          <div className="flex flex-col p-6 bg-grey shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">
             <div>
               <h3 className="text-2xl font-bold text-center">Basic 1040/1040EZ</h3>
               <div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
-                <span className="text-4xl font-bold">$69</span>
+                <span className="text-2xl font-bold">Starting at $69</span>
               </div>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
@@ -23,48 +23,52 @@ export function TaxPricing() {
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  Maximize tax credits like the Earned Income Tax Credit.
+                  Maximize tax credits
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  Earned Income Tax Credit
                 </li>
                  <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" /> 
-                  Maximize college tuition, fees, and books credits.
+                  Maximize college tuition,<br></br> fees, and books credits.
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  Answer simple questions, get your taxes done right.
+                  Answer simple questions,<br></br> get your taxes done right.
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  Easily scan and email or mail your documents. 
+                  Easily scan and email<br></br> or mail your documents. 
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" /> 
-                  Your dedicated expert does taxes.
+                  Your dedicated expert<br></br> does your taxes.
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" /> 
-                  Your expert signs and files your return.
+                  Your expert signs and<br></br> files your return.
                 </li>
                 
               </ul>
             </div>
             <div className="mt-6">
-              <Button className="w-full">Get Started</Button>
+            <Button className="w-full bg-gradient-to-r from-green-500 to-zinc-500">Get Started</Button>
             </div>
           </div>
-          <div className="relative flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-purple-500">
+          <div className="relative flex flex-col p-6 bg-grey shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-purple-500">
             <div className="px-3 py-1 text-sm text-white bg-gradient-to-r from-pink-500 to-purple-500 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               Popular
             </div>
             <div>
               <h3 className="text-2xl font-bold text-center">Small Business</h3>
               <div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
-                <span className="text-4xl font-bold">Starting at $125</span>
+                <span className="text-2xl font-bold">Starting at $125</span>
               </div>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-2xs bg-green-500 rounded-full mr-2 p-1" />
-                  Basic 1040/1040EZ Tax Preparation Package.
+                  Basic 1040/1040EZ<br></br> Tax Preparation Package.
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
@@ -72,15 +76,15 @@ export function TaxPricing() {
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  IRA, 401(k) Roth IRA, HSA and 529 accounts.
+                  IRA, 401(k) Roth IRA,<br></br> HSA and 529 accounts.
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  Other Tax situations and tax forms.
+                  Other tax situations<br></br> and tax forms.
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  Small business owners or 1099 employees.
+                  Small business owners<br></br> or 1099 employees.
                 </li>
               </ul>
             </div>
@@ -88,20 +92,20 @@ export function TaxPricing() {
               <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500">Get Started</Button>
             </div>
           </div>
-          <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">
+          <div className="flex flex-col p-6 bg-grey shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">
             <div>
               <h3 className="text-2xl font-bold text-center">Enterprise</h3>
               <div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
-                <span className="text-4xl font-bold">Starting at $225</span>
+                <span className="text-2xl font-bold">Starting at $225</span>
               </div>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  Basic 1040/1040EZ + Small Business Package.
+                  Basic 1040/1040EZ +<br></br> Small Business Package.
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  Business income and Deductions; Depreciation.
+                  Business Income &<br></br> Deductions
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
@@ -109,11 +113,15 @@ export function TaxPricing() {
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  NOL carries and other special situations.
+                  NOL Carries
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
-                  Rental Properties, Multiple Investments.
+                  Rental Properties
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  Multiple Investments.
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
@@ -126,7 +134,7 @@ export function TaxPricing() {
               </ul>
             </div>
             <div className="mt-6">
-              <Button className="w-full">Get Started</Button>
+            <Button className="w-full bg-gradient-to-r from-zinc-500 to-green-500">Get Started</Button>
             </div>
           </div>
         </div>
