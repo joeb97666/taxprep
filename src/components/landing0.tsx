@@ -71,7 +71,7 @@ export function Landing0() {
                   Personalized Service
               </h3>
                   <p className="max-w-[600px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
-                    We understand that every client is unique. That's why we offer personalized service to meet your
+                    We understand that every client is unique. That is why we offer personalized service to meet your
                     specific needs and financial goals. 
                   </p>
               </div>
