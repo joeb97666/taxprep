@@ -4,6 +4,7 @@
  * @see https://v0.dev/t/rRBlufM
  */
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function TaxPricing() {
   return (
@@ -53,8 +54,13 @@ export function TaxPricing() {
               </ul>
             </div>
             <div className="mt-6">
-            <Button className="w-full bg-gradient-to-r from-green-500 to-zinc-500">Get Started</Button>
-            </div>
+      
+      <Link href="https://buy.stripe.com/3csfZD3mq3djamAdQQ">
+       
+          <Button className="w-full bg-gradient-to-r from-green-500 to-zinc-500">Get Started</Button>
+        
+      </Link>
+    </div>
           </div>
           <div className="relative flex flex-col p-6 bg-grey shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-purple-500">
             <div className="px-3 py-1 text-sm text-white bg-gradient-to-r from-pink-500 to-purple-500 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -89,7 +95,12 @@ export function TaxPricing() {
               </ul>
             </div>
             <div className="mt-6">
-              <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500">Get Started</Button>
+              <Link href="https://buy.stripe.com/aEU5kZ7CG6pvbqE289">
+              
+              <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500"> Get Started</Button>
+            
+              </Link>
+
             </div>
           </div>
           <div className="flex flex-col p-6 bg-grey shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">
@@ -134,7 +145,11 @@ export function TaxPricing() {
               </ul>
             </div>
             <div className="mt-6">
+            <Link href="https://buy.stripe.com/aEU7t7aOS3dj7aoaEG">
+            
             <Button className="w-full bg-gradient-to-r from-zinc-500 to-green-500">Get Started</Button>
+           
+            </Link>
             </div>
           </div>
         </div>
