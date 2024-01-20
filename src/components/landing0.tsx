@@ -5,6 +5,7 @@
  */
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function Landing0() {
   return (
@@ -25,24 +26,35 @@ export function Landing0() {
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
-                <form className="flex flex-col space-y-2">
-                  <Input className="max-w-lg flex-1" placeholder="Enter your name" type="text" />
-                  <Input className="max-w-lg flex-1" placeholder="Enter your email" type="email" />
-                  <Button className="max-w-lg flex-1 bg-black" type="submit">Subscribe</Button>
-                </form>
+            
                 <div className="flex space-x-4">
-                <Button className="mt-4 w-1/2 space-x-2.5 bg-green-600 text-white">Make an Appointment</Button>
-                <Button className="mt-4 w-1/2 space-x-2.5 bg-green-600 text-white">Contact Us</Button>
+                 
+                    <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 text-white rounded" href="./Appointment">
+                       <Button className="center"> Make an Appointment</Button>
+                    </Link>
+                
+                  <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 text-white rounded" href="./TaxPricing">
+                     <Button className="center ml-8">Get Started</Button>
+                  </Link>
+                </div>
+                <div className="flex space-x-4">
+                  <div className="ml-4 w-1/2 space-x-2.5 text-xs text-white">
+                    <p className="center">Make an appointment.</p><p>Online or in person.</p>
+                  </div>
+                  
+                  <div className="ml-4 w-1/2 space-x-2.5 text-xs text-white "> 
+                 <p className="center">Select a tier & upload your documents. </p><p>No appointment neccessary!</p>
+                  </div>
                 </div>
               </div>
             </div>
             <img
-              alt="https://www.istockphoto.com/photo/tax-forms-with-calculator-and-pen-financial-accounting-gm1266907705-371531753?phrase=tax+preparation&searchscope=image%2Cfilm"
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-              height="500"
-              src="url('/public/istockphoto-1266907705-1024x1024.jpg')"
-              width="500"
-            />
+  alt="Tax Preparation"
+  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+  height="500"
+  src='/istockphoto-1266907705-1024x1024.jpg'
+  width="1000"
+/>
           </div>
         </div>
       </section>
@@ -77,12 +89,21 @@ export function Landing0() {
               </div>
               
               <div className="flex space-x-4">
-                <Button className="mt-4 w-1/2 space-x-2.5 bg-green-600 text-white">Meet Our Team</Button>
-                <Button className="mt-4 w-1/2 space-x-2.5 bg-green-600 text-white">Read Our Story</Button>
-                </div>
+              <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white" href="./OurTeam">
+                <Button className='round'> Our Team </Button>
+                </Link>
+                
+                <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white" href="./OurStory">
+                  <Button className='round'> About us </Button>
+                </Link>
+              </div>
                 <div className="flex space-x-5">
-                <Button className="mt-4 w-1/2 space-x-2.5 bg-black text-white">Book an Appointment</Button>
-                <Button className="mt-4 w-1/2 space-x-2.5 bg-black text-white"> Call Us</Button>
+                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white" href="./Appointment">
+                <Button className='round'>Book an Appointment</Button>
+                </Link>
+                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white" href="tel:(206-280-6291)">
+                <Button className='round'> Call Us</Button>
+                </Link>
                 </div>
           
                 

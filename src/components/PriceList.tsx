@@ -14,114 +14,148 @@ export function PriceList() {
         <p className="mt-2 text-center text-sm text-gray-600 dark:text-gray-400">
           Prices per each tax form prepared and filed
         </p>
+       
         <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 1040 (Itemized Schedule A & State)</span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$294  </span>
-            <span className="text-gray-500 text-right dark:text-gray-400">$200</span>
+          <div className="flex justify-between border-b border-gray-200 py-4 dark:border-gray-700">
+            <div className="flex items-center">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form 1040 (Itemized Schedule A & State)</span>
+            </div>
+            <div className="flex items-center"> 
+              <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$294</span>
+              <span className="text-gray-500 text-right dark:text-gray-400">$200</span>
+            </div>
           </div>
-          
         </div>
 
         <div className="mt-5">
-          <div className="flex justify-between items-center border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 1040 or 1040 EZ (Standard Deduction) </span>
-            <span className="text-gray-500 justify-text-right line-through dark:text-gray-400">            $89</span>
-            <span className="text-gray-500 justify-text-right dark:text-gray-400">$59</span>
+          <div className="flex justify-between border-b border-gray-200 py-4 dark:border-gray-700">
+            <div className="flex items-center">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form 1040 or 1040 EZ (Standard Deduction)</span>
+            </div>
+            <div className="flex items-center"> 
+              <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$89</span>
+              <span className="text-gray-500 text-right dark:text-gray-400">$59</span>
+            </div>
           </div>
-          
         </div>
 
         <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form S500 (Pension / Profit Sharing Plans)</span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$615  </span>
-            <span className="text-gray-500 text-right dark:text-gray-400">$400</span>
+          <div className="flex justify-between border-b border-gray-200 py-4 dark:border-gray-700">
+            <div className="flex items-center">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form S500 (Pension / Profit Sharing Plans)</span>
+            </div>
+            <div className="flex items-center"> 
+              <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$615</span>
+              <span className="text-gray-500 text-right dark:text-gray-400">$400</span>
+            </div>
           </div>
-          
         </div>
-          
+
         <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 709 (Gift Tax)                       </span>
-            <span className="text-gray-500 justify-text-right line-through dark:text-gray-400">$389</span>
-            <span className="text-gray-500 justify-text-right dark:text-gray-400">$260</span>
+          <div className="flex justify-between border-b border-gray-200 py-4 dark:border-gray-700">
+            <div className="flex items-center">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form 709 (Gift Tax)</span>
+            </div>
+            <div className="flex items-center"> 
+              <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$389</span>
+              <span className="text-gray-500 text-right dark:text-gray-400">$260</span>
+            </div>
           </div>
-          
         </div>
+
           
           
-       <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 706 (Estates)                       </span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$1774</span>
+
+      <div className="mt-5">
+        <div className="flex justify-between items-center border-b border-gray-200 py-4 dark:border-gray-700">
+          <span className="text-gray-700 text-left dark:text-gray-300">Form 706 (Estates)</span>
+          <div className="flex items-center">
+            <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$1774</span>
             <span className="text-gray-500 text-right dark:text-gray-400">$1099</span>
           </div>
-          
         </div>
-          
-        
-        <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 1120 (Corporation)                    </span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$855</span>
+      </div>
+
+
+      <div className="mt-5">
+        <div className="flex justify-between items-center border-b border-gray-200 py-4 dark:border-gray-700">
+          <span className="text-gray-700 text-left dark:text-gray-300">Form 1120 (Corporation)</span>
+          <div className="flex items-center">
+            <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$855</span>
             <span className="text-gray-500 text-right dark:text-gray-400">$560</span>
           </div>
-          
         </div>
+      </div>
+
+
         
-        <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 11205 (S-Corp)                       </span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$810</span>
-            <span className="text-gray-500 text-right dark:text-gray-400">$530</span>
+                  
+          <div className="mt-5">
+            <div className="flex justify-between items-center border-b border-gray-200 py-4 dark:border-gray-700">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form 11205 (S-Corp)</span>
+              <div className="flex items-center">
+                <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$810</span>
+                <span className="text-gray-500 text-right dark:text-gray-400">$530</span>
+              </div>
+            </div>
           </div>
-          
-        </div>
 
-        <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 1065 (Partnership)                   </span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$669</span>
-            <span className="text-gray-500 text-right dark:text-gray-400">$440</span>
-          </div>
-          
-        </div>
-        <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 990 (Exempt Organization)           </span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$685</span>
-            <span className="text-gray-500 text-right dark:text-gray-400">$450</span>
-          </div>
-          
-        </div>
 
-        <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 990-T (UBI for Tax Exempt Orgs.)    </span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$383</span>
-            <span className="text-gray-500 text-right dark:text-gray-400">$250</span>
+          <div className="mt-5">
+            <div className="flex justify-between items-center border-b border-gray-200 py-4 dark:border-gray-700">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form 1065 (Partnership)</span>
+              <div className="flex items-center">
+                <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$669</span>
+                <span className="text-gray-500 text-right dark:text-gray-400">$440</span>
+              </div>
+            </div>
           </div>
-          
-        </div>
 
-        <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 3115 (Application of<br></br> Change in Accounting Method)	</span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$299</span>
-            <span className="text-gray-500 text-right dark:text-gray-400">$200</span>
+                    
+                    
+          <div className="mt-5">
+            <div className="flex justify-between items-center border-b border-gray-200 py-4 dark:border-gray-700">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form 990 (Exempt Organization)</span>
+              <div className="flex items-center">
+                <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$685</span>
+                <span className="text-gray-500 text-right dark:text-gray-400">$450</span>
+              </div>
+            </div>
           </div>
-          
-        </div>
 
-        <div className="mt-5">
-          <div className="flex justify-between items-left border-b border-gray-200 py-4 dark:border-gray-700">
-            <span className="text-gray-700 text-left dark:text-gray-300">Form 1041 (Fiduciary)                  </span>
-            <span className="text-gray-500 text-right line-through dark:text-gray-400">$508</span>
-            <span className="text-gray-500 text-right dark:text-gray-400">$340</span>
+
+          <div className="mt-5">
+            <div className="flex justify-between items-center border-b border-gray-200 py-4 dark:border-gray-700">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form 990-T (UBI for Tax Exempt Orgs.)</span>
+              <div className="flex items-center">
+                <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$383</span>
+                <span className="text-gray-500 text-right dark:text-gray-400">$250</span>
+              </div>
+            </div>
           </div>
-          
-        </div>
+
+
+          <div className="mt-5">
+            <div className="flex justify-between items-center border-b border-gray-200 py-4 dark:border-gray-700">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form 3115 (Application of<br /> Change in Accounting Method)</span>
+              <div className="flex items-center">
+                <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$299</span>
+                <span className="text-gray-500 text-right dark:text-gray-400">$200</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="mt-5">
+            <div className="flex justify-between items-center border-b border-gray-200 py-4 dark:border-gray-700">
+              <span className="text-gray-700 text-left dark:text-gray-300">Form 1041 (Fiduciary)</span>
+              <div className="flex items-center">
+                <span className="text-gray-500 text-right line-through dark:text-gray-400 mr-2">$508</span>
+                <span className="text-gray-500 text-right dark:text-gray-400">$340</span>
+              </div>
+            </div>
+          </div>
+
 
         </div>
       
