@@ -7,8 +7,7 @@ export default function Home() {
 <>
     <V0Navigatior/>
     <Landing0/>
-   
-    </>
+ </>
 
 
   )

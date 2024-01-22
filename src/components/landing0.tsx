@@ -38,11 +38,11 @@ export function Landing0() {
                   </Link>
                 </div>
                 <div className="flex space-x-4">
-                  <div className="ml-4 w-1/2 space-x-2.5 text-xs text-white">
+                  <div className="ml-4 w-1/2 space-x-2.5 text-xs bg-green-600 text-white">
                     <p className="center">Make an appointment.</p><p>Online or in person.</p>
                   </div>
                   
-                  <div className="ml-4 w-1/2 space-x-2.5 text-xs text-white "> 
+                  <div className="ml-4 w-1/2 space-x-2.5 bg-green-600 text-xs text-white "> 
                  <p className="center">Select a tier & upload your documents. </p><p>No appointment neccessary!</p>
                   </div>
                 </div>
