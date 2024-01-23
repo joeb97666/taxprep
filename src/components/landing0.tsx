@@ -30,7 +30,7 @@ export function Landing0() {
                 <div className="flex space-x-4">
                  
                     <Link className="text-center center mt-4 w-1/2 space-x-2.5 bg-green-600 text-white rounded-xl" href="./Appointment">
-                       <Button className="rounded-xl"> Make an Appointment</Button>
+                       <Button className="-ml-2 rounded-xl"> Make an Appointment</Button>
                     </Link>
                 
                   <Link className="text-center center mt-4 w-1/2 space-x-2.5 bg-green-600 text-white rounded-xl" href="./TaxPricing">
