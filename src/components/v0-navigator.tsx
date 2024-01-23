@@ -21,7 +21,7 @@ export function V0Navigatior() {
             </Button>
           </SheetTrigger>
           <SheetContent side="left">
-            <Link href="#">
+            <Link href="./#">
               <HomeIcon className="h-6 w-6" />
               <span className="sr-only">DB TAX</span>
             </Link>
@@ -30,9 +30,13 @@ export function V0Navigatior() {
                     transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
                     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
                     dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
-                    dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" href="#">
+                    dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" href="./#">
                 Home
               </Link>
+
+              {/* COLLAPSIBLE CONTENT // MOBILE //  */}
+
+
               <Collapsible className="grid gap-4">
                 <CollapsibleTrigger className="flex w-auto items-center text-color-white text-lg font-semibold
                  [&[data-state=open]>svg]:rotate-90">
@@ -92,13 +96,13 @@ export function V0Navigatior() {
                 </CollapsibleTrigger>
                 <CollapsibleContent>
                   <div className="-mx-6 grid gap-6 bg-gray-100 p-6 dark:bg-gray-800">
-                    <Link className="group grid h-auto w-full justify-start gap-1" href="#OurStory">
+                    <Link className="group grid h-auto w-full justify-start gap-1" href="./OurStory">
                       <div className="text-sm font-medium leading-none group-hover:underline">Our Story</div>
                       <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
                         Learn about our journey and mission.
                       </div>
                     </Link>
-                    <Link className="group grid h-auto w-full justify-start gap-1" href="#OurTeam">
+                    <Link className="group grid h-auto w-full justify-start gap-1" href="./OurTeam">
                       <div className="text-sm font-medium leading-none group-hover:underline">Our Team</div>
                       <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
                         Meet the people behind our company.
@@ -123,6 +127,10 @@ export function V0Navigatior() {
           <HomeIcon className="h-6 w-6 ml-auto" />
           <span className="sr-only">DB MARKETING</span>
         </Link>
+
+        {/* NAVIGATION // FOR WEB // */}
+
+
         <NavigationMenu className="ml-auto hidden lg:flex">
           <NavigationMenuList>
             <NavigationMenuLink asChild>
@@ -191,7 +199,9 @@ export function V0Navigatior() {
                 <Link
                   className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium
                    transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none
-                    disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+                    disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 
+                    dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 
+                    dark:data-[state=open]:bg-gray-800/50"
                   href="./About"
                 >
                   About
