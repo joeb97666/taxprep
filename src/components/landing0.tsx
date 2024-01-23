@@ -39,11 +39,11 @@ export function Landing0() {
                 </div>
                 <div className="flex space-x-4">
                   <div className="ml-4 w-1/2 space-x-2.5 text-xs text-grey-500 dark:text-gray-400">
-                    <p className="center">Make an appointment.</p><p>Online or in person.</p>
+                    <p className="center">Make an appointment;</p><p>Online or in person.</p>
                   </div>
                   
                   <div className="ml-4 w-1/2 space-x-2.5 text-xs text-grey-500 dark:text-gray-400"> 
-                 <p className="justify-text-center">Select a tier & upload your documents. No appointment necessary.</p><p className="justify-text-center"></p>
+                 <p className="justify-text-center">No time for an appointment? </p><p className="justify-text-center"></p>
                   </div>
                 </div>
               </div>
@@ -66,8 +66,7 @@ export function Landing0() {
                 What Separates Us
               </h2>
               <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                We believe in providing a comprehensive, tailored approach to tax preparation. Our team of experts are
-                dedicated to understanding your unique financial situation and providing the best possible solutions.
+                A comprehensive, tailored approach to tax preparation. We are dedicated to understanding, and helping you understand, your unique financial situation.
               </p>
             </div>
             <div className="flex flex-col justify-center space-y-4">
@@ -75,8 +74,7 @@ export function Landing0() {
                 Expert Advice
               </h3>
               <p className="max-w-[800px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
-                Our team of tax professionals are always up-to-date with the latest tax laws and regulations, ensuring
-                you receive the most accurate advice.
+                Our team will take the time to investigate your unique tax situation and meticulously ensure the best ways to get you the max refund or otherwise best outcome.
               </p>
               <div className="flex flex-col justify-center space-y-4">
                 <h3 className="text-xl font-bold tracking-tighter text-green-800 dark:text-green-200 sm:text-2xl">

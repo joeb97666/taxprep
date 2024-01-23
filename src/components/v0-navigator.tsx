@@ -60,7 +60,7 @@ export function V0Navigatior() {
                         Easily select a tax preparation service package.
                       </div>
                     </Link>
-                    <Link className="group grid h-s w-full justify-start gap-1" href="./PriceList">
+                    <Link className="group grid h-s w-full justify-start gap-1" href="./TaxPrep">
                       <div className="text-sm font-medium leading-none group-hover:underline">Per Form Pricing</div>
                       <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
                         Transparent pricing.
