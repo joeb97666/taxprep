@@ -26,10 +26,10 @@ export function V0Navigatior() {
               <span className="sr-only">DB TAX</span>
             </Link>
             <div className="grid gap-2 py-6">
-              <Link className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
+              <Link className="group inline-flex h-s w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
                     transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
                     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                    dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
+                    dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
                     dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50" href="./#">
                 Home
               </Link>
@@ -37,72 +37,62 @@ export function V0Navigatior() {
               {/* COLLAPSIBLE CONTENT // MOBILE //  */}
 
 
-              <Collapsible className="grid gap-4">
-                <CollapsibleTrigger className="flex w-auto items-center text-color-white text-lg font-semibold
-                 [&[data-state=open]>svg]:rotate-90">
+
+              <Collapsible className="grid gap-4 h-s">
+                <CollapsibleTrigger className="flex w-full items-center text-lg font-semibold [&[data-state=open]>svg]:rotate-90">
                   <Link
-                    className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
+                    className=" mt-1 group inline-flex h-xs w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
                     transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
                     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                    dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
+                    dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
                     dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
                     href="./Services">
                     Services
+
                   </Link>
                   <ChevronRightIcon className="ml-auto h-5 w-5 transition-all" />
                 </CollapsibleTrigger>
                 <CollapsibleContent>
-                  <div className="-mx-6 grid gap-6 bg-gray-100 p-6 dark:bg-gray-800">
-                  <Link
-                      className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium
-                       transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
-                       disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                       dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
-                       dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-                      href="./TaxPricing">
-                      <div className="text-sm font-medium leading-none group-hover:underline">Tax Packages</div>
+                  <div className="-mx-6 grid gap-4 bg-gray-100 p-6 dark:bg-gray-800">
+                    <Link className="group grid h-s w-full justify-start gap-1" href="./TaxPricing">
+                      <div className="text-sm font-medium leading-none group-hover:underline">Tax Pricing</div>
                       <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
-                      Easily select a tax preparation tier for your individual, business or more complex return.
+                        Easily select a tax preparation service package.
                       </div>
                     </Link>
-                    <Link
-                      className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium 
-                      transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
-                      disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                      dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
-                      dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-                      href="./TaxPrep">
+                    <Link className="group grid h-s w-full justify-start gap-1" href="./PriceList">
                       <div className="text-sm font-medium leading-none group-hover:underline">Per Form Pricing</div>
                       <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
-                      Tax Preparation for all situations: Individual, Families, Sole Proprieter, LLC, Corporations.
+                        Transparent pricing.
                       </div>
                     </Link>
                   </div>
                 </CollapsibleContent>
-              </Collapsible>
-              <Collapsible className="grid gap-4">
+                </Collapsible>
+
+
+
+              <Collapsible className="grid gap-4 h-s">
                 <CollapsibleTrigger className="flex w-full items-center text-lg font-semibold [&[data-state=open]>svg]:rotate-90">
                   <Link
-                    className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
+                    className="mt-1 group inline-flex h-xs w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
                     transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
                     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                    dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
+                    dark:bg-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
                     dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-                    href="./About"
-                  >
-                    About
+                    href="./About">About
                   </Link>
                   <ChevronRightIcon className="ml-auto h-5 w-5 transition-all" />
                 </CollapsibleTrigger>
                 <CollapsibleContent>
-                  <div className="-mx-6 grid gap-6 bg-gray-100 p-6 dark:bg-gray-800">
-                    <Link className="group grid h-auto w-full justify-start gap-1" href="./OurStory">
+                  <div className="-mx-6 grid gap-4 bg-gray-100 p-6 dark:bg-gray-800">
+                    <Link className="group grid h-s w-full justify-start gap-1" href="./OurStory">
                       <div className="text-sm font-medium leading-none group-hover:underline">Our Story</div>
                       <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
                         Learn about our journey and mission.
                       </div>
                     </Link>
-                    <Link className="group grid h-auto w-full justify-start gap-1" href="./OurTeam">
+                    <Link className="group grid h-s w-full justify-start gap-1" href="./OurTeam">
                       <div className="text-sm font-medium leading-none group-hover:underline">Our Team</div>
                       <div className="line-clamp-2 text-sm leading-snug text-gray-500 dark:text-gray-400">
                         Meet the people behind our company.
@@ -111,16 +101,18 @@ export function V0Navigatior() {
                   </div>
                 </CollapsibleContent>
               </Collapsible>
-              <Link className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
+              
+              
+              <Link className="mt-1 group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
                     transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
                     disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                    dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
+                    dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
                     dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
                href="./Contact">
                 Contact
-
               </Link>
             </div>
+
           </SheetContent>
         </Sheet>
         <Link className="mr-6 hidden lg:flex" href="./#">
@@ -138,7 +130,7 @@ export function V0Navigatior() {
                 className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
                 transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
                 disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
+                dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
                 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
                 href="./#"
               >
@@ -151,7 +143,7 @@ export function V0Navigatior() {
                   className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium 
                   transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
                   disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                  dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
+                  dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
                   dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
                   href="./Services"
                 >
@@ -165,7 +157,7 @@ export function V0Navigatior() {
                       className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium 
                       transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none 
                       disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                      dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
+                      dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
                       dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
                       href="./TaxPricing"
                     >
@@ -180,7 +172,7 @@ export function V0Navigatior() {
                       className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium
                        transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none
                         disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 
-                        dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
+                        dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 
                         dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
                       href="./TaxPrep"
                     >
@@ -199,7 +191,7 @@ export function V0Navigatior() {
                 <Link
                   className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium
                    transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none
-                    disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 
+                    disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-600 
                     dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 
                     dark:data-[state=open]:bg-gray-800/50"
                   href="./About"
@@ -211,7 +203,7 @@ export function V0Navigatior() {
                 <div className="grid w-[400px] p-2">
                   <NavigationMenuLink asChild>
                     <Link
-                      className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+                      className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
                       href="./OurStory"
                     >
                       <div className="text-sm font-medium leading-none group-hover:underline">Our Story</div>
@@ -222,7 +214,7 @@ export function V0Navigatior() {
                   </NavigationMenuLink>
                   <NavigationMenuLink asChild>
                     <Link
-                      className="group grid h-auto w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+                      className="group grid h-auto m-h-xs w-full items-center justify-start gap-1 rounded-md bg-white p-4 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
                       href="./OurTeam"
                     >
                       <div className="text-sm font-medium leading-none group-hover:underline">Our Team</div>
@@ -236,7 +228,7 @@ export function V0Navigatior() {
             </NavigationMenuItem>
             <NavigationMenuLink asChild>
               <Link
-                className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+                className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
                 href="./Contact"
               >
                 Contact
@@ -303,7 +295,7 @@ function ChevronRightIcon(props:any) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="white"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
