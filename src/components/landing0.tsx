@@ -20,7 +20,7 @@ export function Landing0() {
                   <br></br>
                   Simplify your experience.
                 </h1>
-                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                  We provide expert advice, efficient filing, and dedicated support to help you navigate 
                   the tax season with ease.
                 </p>
@@ -38,11 +38,11 @@ export function Landing0() {
                   </Link>
                 </div>
                 <div className="flex space-x-4">
-                  <div className="ml-4 w-1/2 space-x-2.5 text-xs text-white">
+                  <div className="ml-4 w-1/2 space-x-2.5 text-xs text-grey-500 dark:text-gray-400">
                     <p className="center">Make an appointment.</p><p>Online or in person.</p>
                   </div>
                   
-                  <div className="ml-4 w-1/2 space-x-2.5 text-xs text-white "> 
+                  <div className="ml-4 w-1/2 space-x-2.5 text-xs text-grey-500 dark:text-gray-400"> 
                  <p className="center">Select a tier & upload your documents. </p><p>No appointment neccessary!</p>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ export function Landing0() {
               <h2 className="text-2xl font-bold tracking-tighter text-green-800 dark:text-green-200 sm:text-4xl">
                 What Separates Us
               </h2>
-              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 We believe in providing a comprehensive, tailored approach to tax preparation. Our team of experts are
                 dedicated to understanding your unique financial situation and providing the best possible solutions.
               </p>
@@ -74,7 +74,7 @@ export function Landing0() {
               <h3 className="text-xl font-bold tracking-tighter text-green-800 dark:text-green-200 sm:text-2xl">
                 Expert Advice
               </h3>
-              <p className="max-w-[600px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
+              <p className="max-w-[800px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
                 Our team of tax professionals are always up-to-date with the latest tax laws and regulations, ensuring
                 you receive the most accurate advice.
               </p>
@@ -82,7 +82,7 @@ export function Landing0() {
                 <h3 className="text-xl font-bold tracking-tighter text-green-800 dark:text-green-200 sm:text-2xl">
                   Personalized Service
               </h3>
-                  <p className="max-w-[600px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
+                  <p className="max-w-[800px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
                     We understand that every client is unique. That is why we offer personalized service to meet your
                     specific needs and financial goals. 
                   </p>
