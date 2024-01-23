@@ -29,11 +29,11 @@ export function Landing0() {
             
                 <div className="flex space-x-4">
                  
-                    <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 text-white rounded-xl" href="./Appointment">
+                    <Link className="text-center center mt-4 w-1/2 space-x-2.5 bg-green-600 text-white rounded-xl" href="./Appointment">
                        <Button className="rounded-xl"> Make an Appointment</Button>
                     </Link>
                 
-                  <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white rounded-xl" href="./TaxPricing">
+                  <Link className="text-center center mt-4 w-1/2 space-x-2.5 bg-green-600 text-white rounded-xl" href="./TaxPricing">
                      <Button className="rounded-xl">Get Started</Button>
                   </Link>
                 </div>
@@ -43,7 +43,7 @@ export function Landing0() {
                   </div>
                   
                   <div className="ml-4 w-1/2 space-x-2.5 text-xs text-grey-500 dark:text-gray-400"> 
-                 <p className="center">Select a tier & upload your documents. </p><p>No appointment neccessary!</p>
+                 <p className="justify-text-center">Select a tier & upload your documents. No appointment necessary.</p><p className="justify-text-center"></p>
                   </div>
                 </div>
               </div>
