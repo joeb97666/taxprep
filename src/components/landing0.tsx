@@ -30,11 +30,11 @@ export function Landing0() {
                 <div className="flex space-x-4">
                  
                     <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 text-white rounded-xl" href="./Appointment">
-                       <Button className="center"> Make an Appointment</Button>
+                       <Button className="rounded-xl"> Make an Appointment</Button>
                     </Link>
                 
-                  <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 text-white rounded-xl" href="./TaxPricing">
-                     <Button className="center ml-8">Get Started</Button>
+                  <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white rounded-xl" href="./TaxPricing">
+                     <Button className="rounded-xl">Get Started</Button>
                   </Link>
                 </div>
                 <div className="flex space-x-4">
@@ -89,19 +89,19 @@ export function Landing0() {
               </div>
               
               <div className="flex space-x-4">
-              <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white" href="./OurTeam">
+              <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white rounded-xl" href="./OurTeam">
                 <Button className='round'> Our Team </Button>
                 </Link>
                 
-                <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white" href="./OurStory">
+                <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white rounded-xl" href="./OurStory">
                   <Button className='round'> About us </Button>
                 </Link>
               </div>
                 <div className="flex space-x-5">
-                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white" href="./Appointment">
+                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white rounded-xl" href="./Appointment">
                 <Button className='round'>Book an Appointment</Button>
                 </Link>
-                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white" href="tel:(206-280-6291)">
+                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white rounded-xl" href="tel:(206-280-6291)">
                 <Button className='round'> Call Us</Button>
                 </Link>
                 </div>
