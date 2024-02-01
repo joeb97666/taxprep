@@ -7,7 +7,7 @@ import { V0Navigatior } from '@/components/v0-navigator'
 
 export default function OurStory() {
   return (
-
+<>
   <div>
     <header className="px-4 lg:px-6 h-14 flex items-center">
       
@@ -130,7 +130,7 @@ export default function OurStory() {
       </footer>
     </div>
   </div>
- 
+  </> 
 
   )
 }
