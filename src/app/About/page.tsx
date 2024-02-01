@@ -34,10 +34,7 @@ export default function About() {
           <div className="container px-4 md:px-6">
             <div className="space-y-4">
               <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">Our History</h2>
-              <p className="max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                Founded in 2010, we have helped hundreds of companies deliver digital products that delight their
-                customers.
-              </p>
+              oijiojoijoijiomoi
             </div>
           </div>
         </section>
