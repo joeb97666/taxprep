@@ -5,10 +5,10 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { V0Navigatior } from '@/components/v0-navigator'
 
-export default function OurStory() {
+export default function About() {
   return (
 <>
-  <div>
+ 
     <header className="px-4 lg:px-6 h-14 flex items-center">
       
    
@@ -129,7 +129,7 @@ export default function OurStory() {
         </nav>
       </footer>
     </div>
-  </div>
+  
   </> 
 
   )
