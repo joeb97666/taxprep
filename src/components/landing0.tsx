@@ -96,7 +96,7 @@ export function Landing0() {
                 </Link>
               </div>
                 <div className="flex space-x-5">
-                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white rounded-xl" href="./Appointment">
+                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white rounded-xl" href="https://calendly.com/davidb88/45-minute-to-1-hour-free-coonsultation-clone">
                 <Button className='round'>Book an Appointment</Button>
                 </Link>
                 <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white rounded-xl" href="tel:(206-280-6291)">
