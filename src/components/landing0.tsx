@@ -4,7 +4,6 @@
  * @see https://v0.dev/t/ZR84gqaFIJg
  */
 import { Input } from "@/components/ui/input"
-import ToTop from "@/components/ui/ToTop"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -87,25 +86,23 @@ export function Landing0() {
                   </p>
               </div>
               
-              <div className="w-1/2 flex  space-x-8">
-        
-                <Link className="mt-4 w-1/2  space-x-2.5 bg-green-600 rounded text-center text-white rounded-xl" href="./OurStory">
-                  <Button className='round'> About us </Button>
+              <div className="flex space-x-4">
+                <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white rounded-xl" href="./OurStory">
+                    <Button className='round'> About us </Button>
                 </Link>
-              </div>
+                  
+                <Link className="mt-4 w-1/2 space-x-2.5 bg-green-600 rounded text-center text-white rounded-xl" href="./#">
+                    <Button className='round'> Back to Top </Button>
+                </Link>
+             </div>
+            
                 <div className="flex space-x-5">
-                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white rounded-xl" href="https://calendly.com/davidb88/45-minute-to-1-hour-free-coonsultation-clone">
-                <Button className='round'>Book an Appointment</Button>
-                </Link>
-                <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white rounded-xl" href="tel:(206-280-6291)">
-                <Button className='round'> Call Us</Button>
-                </Link>
-                
-                <Button id="back-to-top-btn" className="fixed bottom-4 right-4 bg-blue-500 text-white px-4 py-2 rounded-full hidden">
-                <script src="ToTop.js"></script>
-                </Button>
-
-
+                  <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white rounded-xl" href="https://calendly.com/davidb88/45-minute-to-1-hour-free-coonsultation-clone">
+                     <Button className='round'>Book an Appointment</Button>
+                  </Link>
+                  <Link className="mt-4 w-1/2 space-x-2.5 bg-black rounded text-center text-white rounded-xl" href="tel:(206-280-6291)">
+                     <Button className='round'> Call Us</Button>
+                  </Link>
                 </div>
           
                 
