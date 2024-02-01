@@ -18,7 +18,7 @@ export default function Services() {
             We offer tax advice, strategic tax planning and tax returns.
             </h1>
            
-        <div className='grid gap-6  lg:gap-12'>
+        <div className='grid gap-6 lg:gap-12'>
          <div className="flex flex-col justify-center space-y-4">
             <div className="flex justify-center space-x-4 xl:text-xl sm:text-sm md:text-md lg:text-lg  justify-center">
               <Link className="mt-4 w-1/3 space-x-2.5 bg-green-600 text-center text-white rounded-xl" href="./Appointment">
